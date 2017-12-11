@@ -1,8 +1,0 @@
-    // bnet api key goes here, edit the returned string
-    // and change the file name to secret.ts to import your secret key for the bnet api
-    // the secret file is on .gitignore, but do not check the secret file into version control
-
-export function secret(){
-    // bnet api key goes here
-    return "";
-}

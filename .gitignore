@@ -1,5 +1,0 @@
-.vscode
-thumbs.db
-node_modules/
-server/*.js
-server/secret.*
