@@ -1,0 +1,188 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+  <title>MCTPhysics - A Technology Journal For Geeks!: DHTML via Javascript - A Collapsable Text Menu Tutorial</title>
+  <link rel="stylesheet" href="/styles-site.css" type="text/css" />
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/index.rdf" />
+  <link rel="start" href="/" title="Home" />
+  <link rel="prev" href="/archives/000104.html" title="Will The RIAA See To It's own Demise?" />
+  <link rel="next" href="/archives/000106.html" title="Using MoveableType with DHTML Javascript" />
+  <script language="JavaScript" type="text/javascript" src="mainScript.js"></script>
+</head>
+<body>
+  <div id="banner">
+    <h1><a href="/" accesskey="1">MCTPhysics - A Technology Journal For Geeks!</a></h1><span class="description">"The theory of quantum electrodynamics describes nature as absurd from the point of view of common sense. And it agrees fully with experiment. So I hope you can accept nature as she is-absurd." - Richard P. Feynman</span>
+  </div>
+  <div id="container">
+    <div class="blog">
+      <div id="menu">
+        <a href="/archives/000104.html">&laquo; Will The RIAA See To It's own Demise?</a> | <a href="/">Main</a> | <a href="/archives/000106.html">Using MoveableType with DHTML Javascript &raquo;</a>
+      </div>
+    </div>
+    <div class="blog">
+      <h2 class="date">December 20, 2002</h2>
+      <div class="blogbody">
+        <h3 class="title">DHTML via Javascript - A Collapsable Text Menu Tutorial</h3>
+        <p>I've been trying to provide as much functionality to this site without making things too complicated for the user. As you can see the navigation bar on the main page has been updated. Clicking the "[+]" will expand the category now. I didn't like the long list of recent articles running down the page, but I wanted to provide a way to get a quick look at the various topics. Let me know what you think.</p>
+        <p>Now you know what I've been doing for the past couple of days. That's right, I learned to program Javascript. I've never written a program before three days ago. It was hell, but I fully intend to make your's no where as hard as it was for me. Given the plethora of programming centric sites out there, you would think that it would be a simple deal to learn. At the very least, you should be able to get a few clear examples. And in fact you can, if you want to create useless programs that do nothing. The problem is that most sites either assume that you already now how to program in another language or that you know nothing about it. The latter being the worst because they want to walk you through that process step by step while you write junk programs meanwhile totally skirting the real concepts that you need to know.</p>
+        <p>We won't do that here. If you're interested we'll delve right in.</p><a name="more" id="more"></a>
+        <p>Writing a program is all about moving and changing objects. it's really simple and frustrating at the same time once you realize that fact. Other places you will read about object oriented programming and how it's like "the way" to program. Well yeah it is, but for a beginner, you will mostly need to concern your self with much lower level objects. I won't do the standard "what is an object" talk, but I will tell you it's all about the API. That is Application Programming Interface. I'll be doing most of the grunt work here and indeed most every program nowadays.</p>
+        <p>For clarification, we'll only be talking about Javascript this time around. Why Javascript? Because it the easiest lang. that I've found yet. (And the most widespread for its use in DHTML and other web technologies) The most important thing you will need to know before you can begin is a few resources:</p>
+        <p><a href="http://devedge.netscape.com/">Netscape DevEdge</a> - Good reference and documentation site.<br />
+        <a href="http://www.w3c.org/DOM/">W3C DOM</a> - The W3C's Document Object Model Specification. It explains all the types and inheritance and interface properties.</p>
+        <p>You have to do lots of research to understand what each of the DHTM interfaces do and how to use them. This is crucial to understanding what you are moving around inside the containers. But with out further ado, here is the full script used to control the navigation bar.<br /></p>
+        <blockquote>
+          <br />
+          function catList(id){<br />
+          a="+";<br />
+          b="-";<br />
+          i=document.getElementById(id);<br />
+          dval=i.getElementsByTagName("div").item(1).style.display;<br />
+          t=i.getElementsByTagName("div").item(0).getElementsByTagName("a").item(0).firstChild;<br />
+          if (dval=="block") {<br />
+          dval="none";<br />
+          t.nodeValue=t.nodeValue.replace(b,a);<br />
+          }<br />
+          else {<br />
+          dval="block";<br />
+          t.nodeValue=t.nodeValue.replace(a,b);<br />
+          }<br />
+          i.getElementsByTagName("div").item(1).style.display=dval;<br />
+          }<br />
+          if (document.getElementById && document.createTextNode){<br />
+          document.write('&lt;style type="text/css"&gt;.catlist {display:none;}&lt;/style&gt;')<br />
+          }<br />
+        </blockquote><br />
+        Purdy ain't it! I still can't believe I spent about 40 hours on this alone. Good thing is, it's reusable otherwise I would have to shoot myself.
+        <p></p>
+        <p>I only used W3C DOM specification interfaces to the script should work with any DOM2 browser. IE 5.5 and Netscape 4 qualify for most funtions and Mozilla is fuly qualified. Note:My implementation does not qualify as XHTML. I've used the tag to insert the Category name to provide a unique id for each instance. It doesn't qualify because the names have spaces and CSS id specification doesn't allow spaces in the id. I'll have to find a work around, but this will do for now. You can alternatively use a manual naming format. UPDATE: Although at this time the validation site is down, it should now validate. Dummy me, I forgot about the tag. It's numeric and provided the unique identifier that was needed. I'll post the code in a separate article. It's pretty nifty.</p>
+        <p>Let the picking begin; starting with the top:<br /></p>
+        <blockquote>
+          <br />
+          function catList(id){<br />
+        </blockquote><br />
+        "function" - we use this to establish a command to call from the web page, i.e. from a link or button.<br />
+        "catList" - This is the name of the function, I could have named it catNip for that matter.<br />
+        "(id)" - This is part of the "catList" function. "id" is a variable used to transfer a value to an internal function. (See below) I use this to specify the collection of tags that I want to modify. On the navigation bar it's the category name.<br />
+        Of course this is were those other tutorials come in handy, syntax. We need a bracket "{" to contain the function. Otherwise you get *gasp* a syntax error. (Whatever shall we do?)<br />
+        <blockquote>
+          <br />
+          a="+";<br />
+          b="-";<br />
+        </blockquote><br />
+        "a" - is a variable the equal (=) sign assigns the right hand value to the left hand side. Notice I wrote that before I used it in an expression later. Variables must be declared before they are used. "+" is going to be one of the characters is replace via a later expression.<br />
+        "b" - the other value that I replace with "a".<br />
+        <blockquote>
+          <br />
+          i=document.getElementById(id);<br />
+        </blockquote><br />
+        "i" - another variable that I use to transfer the contents to another container.<br />
+        "document" - Hey, it one of the those interfaces in our API defined by the DOM. This container performs a generic operation. It finds and returns the current page in the browser window as an object. We use any function or parameter that can be access by the "document" interface. (See what I mean by research. Check out the W3C site for more information.)<br />
+        "getElementById" - Finds and returns all tags (elements) with the #id matching our parameter "id". No quotes in () because this is a variable being specified. This one was specified earlier in the "function" parameter. You can use any text value for the function which is not always true as we sill see later.<br />
+        ";" - used to delaminate the end of a line. More of that syntax stuff.<br />
+        <blockquote>
+          <br />
+          dval=i.getElementsByTagName("div").item(1).style.display;<br />
+        </blockquote><br />
+        "dval" - variable to hold the value for our CSS style being defined.<br />
+        "i" - used to limit the expression to the contents of the specified ID.<br />
+        "getElementsByTagName("div")" - another contained used to filter by a certain tag, in this case the "div" tag. This container returns a list of tags, not just a generic object.<br />
+        "div" - The HTML tag to filter for.<br />
+        "item(1)" - Index value to filer for in the list. Note: counting starts with 0 so in this case we will return the second tag in the list, by specifying "1".<br />
+        "style" - Command used to perform a style definition on the object (tag).<br />
+        "display" - type of styling that we want to do on this tag. This could be any CSS style definition.<br />
+        <blockquote>
+          <br />
+          t=i.getElementsByTagName("div").item(0).getElementsByTagName("a").item(0).firstChild;<br />
+        </blockquote><br />
+        "t" - Varible need I say more.<br />
+        "i" - You should know what this is by now.<br />
+        "getElementsByTagName("div")" - See how easy this is.<br />
+        "item(0)" - Return the first "div" tag.<br />
+        "getElementsByTagName("a") - Return a list of "a" tags.<br />
+        "item(0)" - Return first "a" tag.<br />
+        "firstChild" - DOM interface return the first object matching our criteria. (Later it is defied by either the "+" or "-" in the varibles "a" or "b".)<br />
+        <blockquote>
+          <br />
+          if (dval=="block") {<br />
+          dval="none";<br />
+          t.nodeValue=t.nodeValue.replace(b,a);<br />
+          }<br />
+        </blockquote><br />
+        "if" - conditional statement that executes the contents only if the parameters are "true".<br />
+        "(dval=="block")" - Parameter that returns true if the variable dval and "block" are equal. The "==" delaminate a true or false statement if both sides are equal.<br />
+        "dval="none"" - sets the value of dval to "none" if this container is executed.<br />
+        "t" - Umm, yeah....<br />
+        "nodeValue" - returns the value as text instead of an [object]. Allows us to evaluate and execute the rest of the string.<br />
+        "replace" - replaces the text per the parameters specified. This were we actually use those values for "a" and "b".<br />
+        <blockquote>
+          <br />
+          else {<br />
+          dval="block";<br />
+          t.nodeValue=t.nodeValue.replace(a,b);<br />
+          }<br />
+        </blockquote><br />
+        "else" - executes if no other conditiond have be met. This statement sets the value of dval to "block". It also replaces the text of "a" with "b".<br />
+        <blockquote>
+          <br />
+          i.getElementsByTagName("div").item(1).style.display=dval;<br />
+        </blockquote><br />
+        "i.getElementsByTagName("div").item(1).style.display=dval;" - Recursive statement. It makes a loop.<br />
+        <blockquote>
+          <br />
+          if (document.getElementById && document.createTextNode){<br />
+          document.write('&lt;style type="text/css"&gt;.catlist {display:none;}&lt;/style&gt;')<br />
+          }<br />
+        </blockquote><br />
+        Simply, this writes a style sheet in memory, to allow for a more responsive click. "catlist" is an CSS class selector specified in my webpage. It defaults the value of display to "none"; hiding the menu by default. Added side effect is if the script doesn't execute for whatever reason, the display will NOT hide the contents of the class. Therefore the category menu will always show the entries if the script is not run, a neat side effect for those older browsers.
+        <p></p>
+        <p>So lets look at the whole script. You click the hyperlink, the script looks at the document, finds the CSS id specified by the text in the hyperlink via the "id" variable, finds the second "div" tag, then sets the CSS display value for that CSS ID selector and sets it to hide or show the contents of the "catlist" class selector.<br />
+        At the same time, it finds the document, the CSS id specified, the first "div" tag therein, the first "a" tag, the first character, and replaces the "+" sign with "-".</p>
+        <p>So, there you have it. Copy it, paste it, do whatever you like. Fell free to *gasp* change it.</p>
+        <p>I hope that was a bit more refreshing than the "other" programming tutorials on the web. If you still are having problems remember look in the documentation. The information there is much more useful and free of bloated oversimplified examples. Make sure you watch your syntax, watch for inheritance problems (if it doesn't explicitly say you can do something, most likely you can't without substantial reworking), and don't forget declare your variables before you use them.<br /></p><span class="posted">Posted by Der Fuehrer at December 20, 2002 07:19 AM | <a href="/mt/mt-tb.cgi?__mode=view&amp;entry_id=105" onclick="OpenTrackback(this.href); return false">TrackBack</a><br /></span>
+      </div>
+      <div class="comments-head">
+        <a name="comments" id="comments"></a>Comments
+      </div>
+      <div class="comments-head">
+        Post a comment
+      </div>
+      <div class="comments-body">
+        <form method="post" action="http://mctphysics.com/mt/mt-comments.cgi" name="comments_form" onsubmit="if (this.bakecookie.checked) rememberMe(this)" id="comments_form">
+          <input type="hidden" name="static" value="1" /> <input type="hidden" name="entry_id" value="105" /> <label for="author">Name:</label><br />
+          <input id="author" name="author" /><br />
+          <br />
+          <label for="email">Email Address:</label><br />
+          <input id="email" name="email" /><br />
+          <br />
+          <label for="url">URL:</label><br />
+          <input id="url" name="url" /><br />
+          <br />
+          <label for="text">Comments:</label><br />
+          <textarea id="text" name="text" rows="10" cols="50"></textarea><br />
+          <br />
+          <input type="checkbox" id="bakecookie" name="bakecookie" /><label for="bakecookie">Remember info?</label><br />
+          <br />
+          <input type="submit" name="preview" value="&nbsp;PREVIEW&nbsp;" /> <input type="submit" name="post" value="&nbsp;POST&nbsp;" /><br />
+          <br />
+          <input type="button" onclick="forgetMe(this.form)" value="FORGET PERSONAL INFORMATION" />
+        </form>
+        <script type="text/javascript" language="javascript">
+        //<![CDATA[
+        <!--
+        document.comments_form.email.value = getCookie("mtcmtmail");
+        document.comments_form.author.value = getCookie("mtcmtauth");
+        document.comments_form.url.value = getCookie("mtcmthome");
+        //-->
+        //]]>
+        </script>
+      </div>
+    </div>
+    <div id="footer">
+      | <a href="http://www.moveabletype.org/">Powered By MoveableType 2.5</a> | <a href="http://validator.w3.org/check?uri=http://mctphysics.com/index.html">Valid XHTML 1.0</a> | <a href="http://jigsaw.w3.org/css-validator/validator?uri=http://mctphysics.com/styles-site.css">Valid W3C CSS2</a> | <a href="index.rdf">Valid XML/RDF Site Syndication {RSS}</a> | <a href="http://creativecommons.org/licenses/by-nc-sa/1.0">Some Rights Reserved.</a> |
+    </div>
+  </div>
+</body>
+</html>

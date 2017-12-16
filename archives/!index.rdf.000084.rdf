@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:admin="http://webns.net/mvcb/" xmlns="http://purl.org/rss/1.0/">
+
+<channel rdf:about="http://www.mctphysics.com/">
+<title>MCTPhysics - A Technology Journal For Geeks!</title>
+<link>http://www.mctphysics.com/</link>
+<description>&quot;The theory of quantum electrodynamics describes nature as absurd from the point of view of common sense. And it agrees fully with experiment. So I hope you can accept nature as she is-absurd.&quot;
+- Richard P. Feynman</description>
+<dc:language>en-us</dc:language>
+<dc:creator></dc:creator>
+<dc:date>2003-07-14T14:14:03-06:00</dc:date>
+<admin:generatorAgent rdf:resource="http://www.movabletype.org/?v=2.5" />
+
+<items>
+<rdf:Seq>
+<rdf:li rdf:resource="http://www.mctphysics.com/archives/000136.html" />
+
+<rdf:li rdf:resource="http://www.mctphysics.com/archives/000135.html" />
+
+<rdf:li rdf:resource="http://www.mctphysics.com/archives/000134.html" />
+
+<rdf:li rdf:resource="http://www.mctphysics.com/archives/000133.html" />
+
+<rdf:li rdf:resource="http://www.mctphysics.com/archives/000132.html" />
+
+<rdf:li rdf:resource="http://www.mctphysics.com/archives/000131.html" />
+
+<rdf:li rdf:resource="http://www.mctphysics.com/archives/000130.html" />
+
+<rdf:li rdf:resource="http://www.mctphysics.com/archives/000129.html" />
+
+<rdf:li rdf:resource="http://www.mctphysics.com/archives/000128.html" />
+
+<rdf:li rdf:resource="http://www.mctphysics.com/archives/000127.html" />
+
+<rdf:li rdf:resource="http://www.mctphysics.com/archives/000126.html" />
+
+<rdf:li rdf:resource="http://www.mctphysics.com/archives/000125.html" />
+
+<rdf:li rdf:resource="http://www.mctphysics.com/archives/000124.html" />
+
+<rdf:li rdf:resource="http://www.mctphysics.com/archives/000123.html" />
+
+<rdf:li rdf:resource="http://www.mctphysics.com/archives/000122.html" />
+</rdf:Seq>
+</items>
+
+</channel>
+
+
+<item rdf:about="http://www.mctphysics.com/archives/000136.html">
+<title>I&apos;m a lazy bastard...sue me</title>
+<description>Ok, so it&apos;s been a while. I haven&apos;t dropped off the face of the earth, I&apos;ve just moved on to...</description>
+<link>http://www.mctphysics.com/archives/000136.html</link>
+<dc:subject>Everyday Voodoo</dc:subject>
+<dc:creator>Der Fuehrer</dc:creator>
+<dc:date>2003-07-14T14:14:03-06:00</dc:date>
+</item>
+
+<item rdf:about="http://www.mctphysics.com/archives/000135.html">
+<title>Further adventures of the hopelessly disappointed</title>
+<description>Well, yes, it seems the Everquest bug has hit me very hard. I&apos;m not quite sure when I will recover,...</description>
+<link>http://www.mctphysics.com/archives/000135.html</link>
+<dc:subject>Everyday Voodoo</dc:subject>
+<dc:creator>Der Fuehrer</dc:creator>
+<dc:date>2003-04-13T20:57:34-06:00</dc:date>
+</item>
+
+<item rdf:about="http://www.mctphysics.com/archives/000134.html">
+<title>Evercrack</title>
+<description>I&apos;ve recently discovered Everquest. I know it&apos;s been out forever, but I&apos;ve never played it or even seen someone who...</description>
+<link>http://www.mctphysics.com/archives/000134.html</link>
+<dc:subject>Computing</dc:subject>
+<dc:creator>Der Fuehrer</dc:creator>
+<dc:date>2003-01-28T05:22:17-06:00</dc:date>
+</item>
+
+<item rdf:about="http://www.mctphysics.com/archives/000133.html">
+<title>Slow News</title>
+<description>Hopefully I&apos;m not the only one wondering why the news has been so slow lately. Nevertheless, despite the mediocre tempo...</description>
+<link>http://www.mctphysics.com/archives/000133.html</link>
+<dc:subject>Everyday Voodoo</dc:subject>
+<dc:creator>Der Fuehrer</dc:creator>
+<dc:date>2003-01-17T12:28:33-06:00</dc:date>
+</item>
+
+<item rdf:about="http://www.mctphysics.com/archives/000132.html">
+<title>Speed Of Gravity Measured...Surprise!, Einstein Was Right</title>
+<description>Hey, what news! Einstein was right. Scientists have measured the speed of gravity using the movement of Jupiter into the...</description>
+<link>http://www.mctphysics.com/archives/000132.html</link>
+<dc:subject>Physics</dc:subject>
+<dc:creator>Der Fuehrer</dc:creator>
+<dc:date>2003-01-08T07:03:38-06:00</dc:date>
+</item>
+
+<item rdf:about="http://www.mctphysics.com/archives/000131.html">
+<title>Gamers have New Appreciation For MMORPGs</title>
+<description>I&apos;ve spent my share playing online with a few of the online RPGs on the market. Most recently with Anarchy...</description>
+<link>http://www.mctphysics.com/archives/000131.html</link>
+<dc:subject>Computing</dc:subject>
+<dc:creator>Der Fuehrer</dc:creator>
+<dc:date>2003-01-08T06:24:07-06:00</dc:date>
+</item>
+
+<item rdf:about="http://www.mctphysics.com/archives/000130.html">
+<title>Apple Making Headlines...With Me At Least</title>
+<description>Steve Job&apos;s keynote at the MacWorldExpo has been creating quite a stir. Lust inspiring laptops, better browsers and a slew...</description>
+<link>http://www.mctphysics.com/archives/000130.html</link>
+<dc:subject>Computing</dc:subject>
+<dc:creator>Der Fuehrer</dc:creator>
+<dc:date>2003-01-08T05:59:53-06:00</dc:date>
+</item>
+
+<item rdf:about="http://www.mctphysics.com/archives/000129.html">
+<title>Linux Code Jokes</title>
+<description>He he, check out this page with snippets of code from the Linux kernal. As usual, bored developers carry out...</description>
+<link>http://www.mctphysics.com/archives/000129.html</link>
+<dc:subject>Everyday Voodoo</dc:subject>
+<dc:creator>Der Fuehrer</dc:creator>
+<dc:date>2003-01-05T03:55:31-06:00</dc:date>
+</item>
+
+<item rdf:about="http://www.mctphysics.com/archives/000128.html">
+<title>Word of Hope for the Moment</title>
+<description>I&apos;ve finally gotten through with my application to MIT. All that there is to do is sit back and wait...</description>
+<link>http://www.mctphysics.com/archives/000128.html</link>
+<dc:subject>Everyday Voodoo</dc:subject>
+<dc:creator>Der Fuehrer</dc:creator>
+<dc:date>2003-01-05T03:51:40-06:00</dc:date>
+</item>
+
+<item rdf:about="http://www.mctphysics.com/archives/000127.html">
+<title>TheDarkside.com/switch</title>
+<description>My name is Anakin Skywalker and I&apos;m a Sith Lord. Hilarious Apple switch commercial parody....</description>
+<link>http://www.mctphysics.com/archives/000127.html</link>
+<dc:subject>Everyday Voodoo</dc:subject>
+<dc:creator>Der Fuehrer</dc:creator>
+<dc:date>2003-01-05T03:09:56-06:00</dc:date>
+</item>
+
+<item rdf:about="http://www.mctphysics.com/archives/000126.html">
+<title>Nuclear Batteries</title>
+<description>So far most of the nanotech articles reported on here have relied on glucose in the blood stream to power...</description>
+<link>http://www.mctphysics.com/archives/000126.html</link>
+<dc:subject>NanoTech</dc:subject>
+<dc:creator>Der Fuehrer</dc:creator>
+<dc:date>2003-01-03T02:01:03-06:00</dc:date>
+</item>
+
+<item rdf:about="http://www.mctphysics.com/archives/000125.html">
+<title>A Level-headed Look at Microsoft</title>
+<description>Microsoft has been through a lot during the past few years. Legal battles, questionable security initiatives (Palladium), and confusing software...</description>
+<link>http://www.mctphysics.com/archives/000125.html</link>
+<dc:subject>Computing</dc:subject>
+<dc:creator>Der Fuehrer</dc:creator>
+<dc:date>2003-01-03T01:44:34-06:00</dc:date>
+</item>
+
+<item rdf:about="http://www.mctphysics.com/archives/000124.html">
+<title>Bush&apos;s Misguided Advisor</title>
+<description>Life extension has a new highly influential foe. Meet Leon Kass, Bush&apos;s bioethics council and he&apos;s often seen parading around...</description>
+<link>http://www.mctphysics.com/archives/000124.html</link>
+<dc:subject>Politics and Law</dc:subject>
+<dc:creator>Der Fuehrer</dc:creator>
+<dc:date>2002-12-31T13:14:36-06:00</dc:date>
+</item>
+
+<item rdf:about="http://www.mctphysics.com/archives/000123.html">
+<title>Unified Theory Exposed!!! Return of the Ether</title>
+<description>It&apos;s nice to know that these guy&apos;s have got it all figured out. (with color coded folmulas no less) I...</description>
+<link>http://www.mctphysics.com/archives/000123.html</link>
+<dc:subject>Physics</dc:subject>
+<dc:creator>Der Fuehrer</dc:creator>
+<dc:date>2002-12-30T18:47:01-06:00</dc:date>
+</item>
+
+<item rdf:about="http://www.mctphysics.com/archives/000122.html">
+<title>AmphetaDesk SideBar</title>
+<description>I&apos;ve been trying in vein to find a adequate news program for windows. There are a few on the market,...</description>
+<link>http://www.mctphysics.com/archives/000122.html</link>
+<dc:subject>Computing</dc:subject>
+<dc:creator>Der Fuehrer</dc:creator>
+<dc:date>2002-12-30T15:09:49-06:00</dc:date>
+</item>
+
+
+</rdf:RDF>

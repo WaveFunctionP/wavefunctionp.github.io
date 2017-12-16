@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+  <title>MCTPhysics - A Technology Journal For Geeks!: AmphetaDesk SideBar</title>
+  <link rel="stylesheet" href="/styles-site.css" type="text/css" />
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/index.rdf" />
+  <link rel="start" href="/" title="Home" />
+  <link rel="prev" href="/archives/000121.html" title="Bubble Chambers - Great Fun for the Whole Family!" />
+  <link rel="next" href="/archives/000123.html" title="Unified Theory Exposed!!! Return of the Ether" />
+  <script language="JavaScript" type="text/javascript" src="mainScript.js"></script>
+</head>
+<body>
+  <div id="banner">
+    <h1><a href="/" accesskey="1">MCTPhysics - A Technology Journal For Geeks!</a></h1><span class="description">"The theory of quantum electrodynamics describes nature as absurd from the point of view of common sense. And it agrees fully with experiment. So I hope you can accept nature as she is-absurd." - Richard P. Feynman</span>
+  </div>
+  <div id="container">
+    <div class="blog">
+      <div id="menu">
+        <a href="/archives/000121.html">&laquo; Bubble Chambers - Great Fun for the Whole Family!</a> | <a href="/">Main</a> | <a href="/archives/000123.html">Unified Theory Exposed!!! Return of the Ether &raquo;</a>
+      </div>
+    </div>
+    <div class="blog">
+      <h2 class="date">December 30, 2002</h2>
+      <div class="blogbody">
+        <h3 class="title">AmphetaDesk SideBar</h3>
+        <p>I've been trying in vein to find a adequate news program for windows. There are a few on the market, but few utilize a 3 pane design with a simple interface. Well, that is 'till I found <a href="http://www.disobey.com/amphetadesk/">AmphetaDesk</a>. I've used it before, but because it didn't use the requisite 3 window panes, I left in alone to find another solution. I did like AmphetaDesk for it's simplicity and light weight. After a few weeks of using <a href="http://www.newzcrawler.com/">NewzCrawler</a>, I slowly began to dislike many of is quirks and especially that I was going to have to pay for it come a few days. It really didn't justify the cost in my mind.</p>
+        <p>Fast Forward to yesterday. I reloaded AmphetaDesk and found out you could customize the templates used to generate the headlines page. I've also been hearing a lot of noise on the net about Mozilla sidebars. Couple that with a little JavaScript and viola, 3 pane (sorta) RSS newsreader mozilla sidebar. <a href="/pics/amdesk.jpg">[screenshot]</a> It's a bad pic, but you get the idea.</p>
+        <p>The core idea is to use AmphetaDesk to aggregate the feeds, along with it's feed management features, modify the index template to fit in a sidebar and add some collapsible menus to the feed list. Tweak and you've got a totally free, easy to use, way to read news feeds.</p>
+        <p>All you need to get it running is to <a href="http://www.disobey.com/amphetadesk/index.html">download and install</a> AmphetaDesk, copy this <a href="/files/index.txt">index file</a> to your template folder(right click, save target as, rename to index.html), and <a href="javascript:window.sidebar.addPanel%20('AmphetaDesk',%20'http://127.0.0.1:8888/index.html','')">install the side bar</a>. (The last link is a javascript that installs the AmphetaDesk URI: "http://127.0.0.1:8888/index.html", to your sidebar)</p>
+        <p>Note. I've removed the excerpt/description container from the perl script because the list was too long for my tastes. If you want it just copy the appropriate container from the default template to the new one.</p>
+        <p>Remember to back up your default template (rename it, or copy it to another directory) before you over write it with the new template. It really doesn't matter, because you should have the zip file you downloaded that you can restore from, but it might save you some trouble if you've already made some changes to the template that you want to save.</p>
+        <p>All page formatting is done in DOM, so in other words the sidebar is just a webpage. CSS and scripting all apply the same as if it were in the main window. So, CSS is how I chose to apply style. target="_content" in the "a" tags makes the links display in the main window instead of the side bar. Sidebar information can be <a href="http://www.mozilla.org/catalog/web-developer/sidebar/">found here</a> and an AmphetaDesk template <a href="http://www.disobey.com/amphetadesk/skinning.html">explanation is here</a>. (Don't know perl? Neither do I, all you need to know is all variables start with "$", other than that you'll catch on pretty quick)</p>
+        <p>Enough of this noise, have fun. Remember to tell me what you think, any suggestions?</p><a name="more" id="more"></a> <span class="posted">Posted by Der Fuehrer at December 30, 2002 03:09 PM | <a href="/mt/mt-tb.cgi?__mode=view&amp;entry_id=122" onclick="OpenTrackback(this.href); return false">TrackBack</a><br /></span>
+      </div>
+      <div class="comments-head">
+        <a name="comments" id="comments"></a>Comments
+      </div>
+      <div class="comments-body">
+        <p>There's an comment opened at the start of JavaScript function catList (line 71) that is not closed. Mozilla compensates but Opera and IE do not.</p><span class="comments-post">Posted by: <a href="mailto&#58;someone&#64;nowhere&#46;com">minckster</a> on December 29, 2003 01:52 PM</span>
+      </div>
+      <div class="comments-head">
+        Post a comment
+      </div>
+      <div class="comments-body">
+        <form method="post" action="http://mctphysics.com/mt/mt-comments.cgi" name="comments_form" onsubmit="if (this.bakecookie.checked) rememberMe(this)" id="comments_form">
+          <input type="hidden" name="static" value="1" /> <input type="hidden" name="entry_id" value="122" /> <label for="author">Name:</label><br />
+          <input id="author" name="author" /><br />
+          <br />
+          <label for="email">Email Address:</label><br />
+          <input id="email" name="email" /><br />
+          <br />
+          <label for="url">URL:</label><br />
+          <input id="url" name="url" /><br />
+          <br />
+          <label for="text">Comments:</label><br />
+          <textarea id="text" name="text" rows="10" cols="50"></textarea><br />
+          <br />
+          <input type="checkbox" id="bakecookie" name="bakecookie" /><label for="bakecookie">Remember info?</label><br />
+          <br />
+          <input type="submit" name="preview" value="&nbsp;PREVIEW&nbsp;" /> <input type="submit" name="post" value="&nbsp;POST&nbsp;" /><br />
+          <br />
+          <input type="button" onclick="forgetMe(this.form)" value="FORGET PERSONAL INFORMATION" />
+        </form>
+        <script type="text/javascript" language="javascript">
+        //<![CDATA[
+        <!--
+        document.comments_form.email.value = getCookie("mtcmtmail");
+        document.comments_form.author.value = getCookie("mtcmtauth");
+        document.comments_form.url.value = getCookie("mtcmthome");
+        //-->
+        //]]>
+        </script>
+      </div>
+    </div>
+    <div id="footer">
+      | <a href="http://www.moveabletype.org/">Powered By MoveableType 2.5</a> | <a href="http://validator.w3.org/check?uri=http://mctphysics.com/index.html">Valid XHTML 1.0</a> | <a href="http://jigsaw.w3.org/css-validator/validator?uri=http://mctphysics.com/styles-site.css">Valid W3C CSS2</a> | <a href="index.rdf">Valid XML/RDF Site Syndication {RSS}</a> | <a href="http://creativecommons.org/licenses/by-nc-sa/1.0">Some Rights Reserved.</a> |
+    </div>
+  </div>
+</body>
+</html>
