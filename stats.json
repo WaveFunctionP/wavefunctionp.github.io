@@ -5,8 +5,8 @@
       "component---src-pages-index-js-093b6900f7194a1fd67d.js.map"
     ],
     "path---blog": [
-      "path---blog-ee3813af46b2ff277b28.js",
-      "path---blog-ee3813af46b2ff277b28.js.map"
+      "path---blog-4c4d63e80819c7438439.js",
+      "path---blog-4c4d63e80819c7438439.js.map"
     ],
     "path---cv": [
       "path---cv-a0e39f21c11f6a62c5ab.js",
@@ -16,13 +16,25 @@
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
     ],
+    "path---optimizing-landing-page": [
+      "path---optimizing-landing-page-90b42030fef4b3646c25.js",
+      "path---optimizing-landing-page-90b42030fef4b3646c25.js.map"
+    ],
     "path---projects": [
       "path---projects-a0e39f21c11f6a62c5ab.js",
       "path---projects-a0e39f21c11f6a62c5ab.js.map"
     ],
+    "path---first-post": [
+      "path---first-post-7f3ee432dba998022b89.js",
+      "path---first-post-7f3ee432dba998022b89.js.map"
+    ],
+    "component---src-templates-blog-post-js": [
+      "component---src-templates-blog-post-js-d93d45c933e00ea6acd8.js",
+      "component---src-templates-blog-post-js-d93d45c933e00ea6acd8.js.map"
+    ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-583afa224ac38f17e1a1.js",
-      "component---src-layouts-index-js-583afa224ac38f17e1a1.js.map"
+      "component---src-layouts-index-js-c1e134986517f83ef2a4.js",
+      "component---src-layouts-index-js-c1e134986517f83ef2a4.js.map"
     ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
@@ -49,8 +61,8 @@
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-blog-js": [
-      "component---src-pages-blog-js-988f65df195d92b93a2d.js",
-      "component---src-pages-blog-js-988f65df195d92b93a2d.js.map"
+      "component---src-pages-blog-js-a192d703b3211382da72.js",
+      "component---src-pages-blog-js-a192d703b3211382da72.js.map"
     ],
     "component---src-pages-projects-js": [
       "component---src-pages-projects-js-515450bb10d537b9bcb5.js",
@@ -61,8 +73,8 @@
       "path---resume-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-001a5015d147ce0ab6dd.js",
-      "app-001a5015d147ce0ab6dd.js.map"
+      "app-6d40dae7ab605e3d163a.js",
+      "app-6d40dae7ab605e3d163a.js.map"
     ],
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
