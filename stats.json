@@ -1,8 +1,8 @@
 {
   "assetsByChunkName": {
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-093b6900f7194a1fd67d.js",
-      "component---src-pages-index-js-093b6900f7194a1fd67d.js.map"
+      "component---src-pages-index-js-66656c807adb5141fe70.js",
+      "component---src-pages-index-js-66656c807adb5141fe70.js.map"
     ],
     "path---shadowcraft-rewrite": [
       "path---shadowcraft-rewrite-f896d37273ec52174eef.js",
@@ -69,24 +69,24 @@
       "component---src-pages-blog-js-a192d703b3211382da72.js.map"
     ],
     "component---src-pages-projects-js": [
-      "component---src-pages-projects-js-8960e368cb40281e4722.js",
-      "component---src-pages-projects-js-8960e368cb40281e4722.js.map"
+      "component---src-pages-projects-js-4c98915da15bcc51d533.js",
+      "component---src-pages-projects-js-4c98915da15bcc51d533.js.map"
     ],
     "path---resume": [
       "path---resume-a0e39f21c11f6a62c5ab.js",
       "path---resume-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-c4880118b9d6bc431244.js",
-      "app-c4880118b9d6bc431244.js.map"
+      "app-7dfb3254fbeab94261d1.js",
+      "app-7dfb3254fbeab94261d1.js.map"
     ],
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
       "path---404-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-about-js": [
-      "component---src-pages-about-js-6345e705dadf3df72ba5.js",
-      "component---src-pages-about-js-6345e705dadf3df72ba5.js.map"
+      "component---src-pages-about-js-950d1be1cdc8123c28fe.js",
+      "component---src-pages-about-js-950d1be1cdc8123c28fe.js.map"
     ],
     "path---about": [
       "path---about-a0e39f21c11f6a62c5ab.js",
