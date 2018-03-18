@@ -9,8 +9,8 @@
       "path---shadowcraft-rewrite-f896d37273ec52174eef.js.map"
     ],
     "path---blog": [
-      "path---blog-363cec9525315e4f0d2e.js",
-      "path---blog-363cec9525315e4f0d2e.js.map"
+      "path---blog-b3e5f3a1e80ed42860ea.js",
+      "path---blog-b3e5f3a1e80ed42860ea.js.map"
     ],
     "path---cv": [
       "path---cv-a0e39f21c11f6a62c5ab.js",
@@ -52,6 +52,10 @@
       "component---src-pages-404-js-64fa1f5a160ab1eac703.js",
       "component---src-pages-404-js-64fa1f5a160ab1eac703.js.map"
     ],
+    "path---my-journey-my-first-dev-job": [
+      "path---my-journey-my-first-dev-job-fc9054f0bec0bdbaa0de.js",
+      "path---my-journey-my-first-dev-job-fc9054f0bec0bdbaa0de.js.map"
+    ],
     "commons": [
       "commons-01a2b5aac25318deeef2.js",
       "commons-01a2b5aac25318deeef2.js.map"
@@ -77,8 +81,8 @@
       "path---resume-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-7dfb3254fbeab94261d1.js",
-      "app-7dfb3254fbeab94261d1.js.map"
+      "app-a5e152ed4d8120436489.js",
+      "app-a5e152ed4d8120436489.js.map"
     ],
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
