@@ -9,8 +9,8 @@
       "path---shadowcraft-rewrite-f896d37273ec52174eef.js.map"
     ],
     "path---blog": [
-      "path---blog-462786b33cce89dfd740.js",
-      "path---blog-462786b33cce89dfd740.js.map"
+      "path---blog-5ec98aadb10248e1018e.js",
+      "path---blog-5ec98aadb10248e1018e.js.map"
     ],
     "path---cv": [
       "path---cv-a0e39f21c11f6a62c5ab.js",
@@ -39,6 +39,10 @@
     "component---src-layouts-index-js": [
       "component---src-layouts-index-js-70144bfd86c5f8edd14f.js",
       "component---src-layouts-index-js-70144bfd86c5f8edd14f.js.map"
+    ],
+    "path---goodnight-shadowcraft": [
+      "path---goodnight-shadowcraft-1c7511c920b8f71a79ba.js",
+      "path---goodnight-shadowcraft-1c7511c920b8f71a79ba.js.map"
     ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
@@ -81,8 +85,8 @@
       "path---resume-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-a5e152ed4d8120436489.js",
-      "app-a5e152ed4d8120436489.js.map"
+      "app-c1a90e62807b9e412096.js",
+      "app-c1a90e62807b9e412096.js.map"
     ],
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
