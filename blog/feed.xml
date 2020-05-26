@@ -1,0 +1,51 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+<title>elm-pages Blog</title>
+<description>Starter blog for elm-pages</description>
+<link>https://elm-pages.com/blog</link>
+<lastBuildDate>Tue, 26 May 2020 18:23:17 +0000</lastBuildDate>
+<generator>elm-pages</generator>
+<item>
+<title>The Beginner Developer Wonderland</title>
+<description>Avoiding a dangerous trap for new developers</description>
+<link>https://elm-pages-starter.netlify.comblog/beginner-developer-wonderland</link>
+<guid>https://elm-pages-starter.netlify.comblog/beginner-developer-wonderland</guid>
+<pubDate>Sat, 26 Jan 2019 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>First!</title>
+<description>Hello internet peoples!</description>
+<link>https://elm-pages-starter.netlify.comblog/first-post</link>
+<guid>https://elm-pages-starter.netlify.comblog/first-post</guid>
+<pubDate>Thu, 14 Dec 2017 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>Hello from `elm-pages`! 🚀</title>
+<description>Moving from Gatsby to elm-pages!</description>
+<link>https://elm-pages-starter.netlify.comblog/hello-from-elm-pages</link>
+<guid>https://elm-pages-starter.netlify.comblog/hello-from-elm-pages</guid>
+<pubDate>Mon, 25 May 2020 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>The Journey To My First Dev Job</title>
+<description>The long road of my professional development</description>
+<link>https://elm-pages-starter.netlify.comblog/journey-to-my-first-dev-job</link>
+<guid>https://elm-pages-starter.netlify.comblog/journey-to-my-first-dev-job</guid>
+<pubDate>Sun, 18 Mar 2018 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>Optimizing the Landing Page</title>
+<description>Some of the things I've done to improve loading performance</description>
+<link>https://elm-pages-starter.netlify.comblog/optimizing-landing-page</link>
+<guid>https://elm-pages-starter.netlify.comblog/optimizing-landing-page</guid>
+<pubDate>Fri, 22 Dec 2017 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>The Shadowcraft Rewrite</title>
+<description>A postmortem analysis of the new shadowcraft implimentation</description>
+<link>https://elm-pages-starter.netlify.comblog/shadowcraft-rewrite</link>
+<guid>https://elm-pages-starter.netlify.comblog/shadowcraft-rewrite</guid>
+<pubDate>Mon, 22 Jan 2018 00:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>
