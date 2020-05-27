@@ -1,7 +1,7 @@
 {
-  "name": "elm-pages-starter",
-  "short_name": "elm-pages-starter",
-  "description": "elm-pages-starter - A statically typed site generator.",
+  "name": "confusingbits",
+  "short_name": "confusing bits",
+  "description": "confusingbits - A personal tech blog",
   "dir": "auto",
   "lang": "en-US",
   "display": "standalone",
