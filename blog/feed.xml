@@ -3,7 +3,7 @@
 <title>elm-pages Blog</title>
 <description>A personal tech blog</description>
 <link>https://elm-pages.com/blog</link>
-<lastBuildDate>Wed, 27 May 2020 00:03:33 +0000</lastBuildDate>
+<lastBuildDate>Sun, 30 Aug 2020 20:28:54 +0000</lastBuildDate>
 <generator>elm-pages</generator>
 <item>
 <title>The Beginner Developer Wonderland</title>
@@ -46,6 +46,13 @@
 <link>https://confusingbits.comblog/shadowcraft-rewrite</link>
 <guid>https://confusingbits.comblog/shadowcraft-rewrite</guid>
 <pubDate>Mon, 22 Jan 2018 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>Yesod Dev Container using Docker (on Windows)</title>
+<description>How to setup a docker container for Yesod/Haskell development on Windows</description>
+<link>https://confusingbits.comblog/yesod-docker-dev-container</link>
+<guid>https://confusingbits.comblog/yesod-docker-dev-container</guid>
+<pubDate>Sat, 29 Aug 2020 00:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
