@@ -3,7 +3,7 @@
 <title>elm-pages Blog</title>
 <description>A personal tech blog</description>
 <link>https://elm-pages.com/blog</link>
-<lastBuildDate>Sun, 30 Aug 2020 21:58:30 +0000</lastBuildDate>
+<lastBuildDate>Sun, 30 Aug 2020 23:07:48 +0000</lastBuildDate>
 <generator>elm-pages</generator>
 <item>
 <title>The Beginner Developer Wonderland</title>
@@ -34,6 +34,13 @@
 <pubDate>Sun, 18 Mar 2018 00:00:00 GMT</pubDate>
 </item>
 <item>
+<title>Mapping Custom Queries in Java Spring</title>
+<description>How to map a one off DTO from a native query</description>
+<link>https://confusingbits.comblog/map-custom-query-with-java</link>
+<guid>https://confusingbits.comblog/map-custom-query-with-java</guid>
+<pubDate>Sun, 30 Aug 2020 00:00:00 GMT</pubDate>
+</item>
+<item>
 <title>Optimizing the Landing Page</title>
 <description>Some of the things I've done to improve loading performance</description>
 <link>https://confusingbits.comblog/optimizing-landing-page</link>
@@ -52,7 +59,7 @@
 <description>How to setup a docker container for Yesod/Haskell development on Windows</description>
 <link>https://confusingbits.comblog/yesod-docker-dev-container</link>
 <guid>https://confusingbits.comblog/yesod-docker-dev-container</guid>
-<pubDate>Sun, 30 Aug 2020 00:00:00 GMT</pubDate>
+<pubDate>Sat, 29 Aug 2020 00:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
