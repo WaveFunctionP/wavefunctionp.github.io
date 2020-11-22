@@ -3,8 +3,15 @@
 <title>elm-pages Blog</title>
 <description>A personal tech blog</description>
 <link>https://elm-pages.com/blog</link>
-<lastBuildDate>Sun, 30 Aug 2020 23:07:48 +0000</lastBuildDate>
+<lastBuildDate>Sun, 22 Nov 2020 20:17:53 +0000</lastBuildDate>
 <generator>elm-pages</generator>
+<item>
+<title>Avoiding the docker file watching issue on windows</title>
+<description>The cause and solution to getting build tooling to work on save again with docker.</description>
+<link>https://confusingbits.comblog/avoiding-file-watching-bug</link>
+<guid>https://confusingbits.comblog/avoiding-file-watching-bug</guid>
+<pubDate>Sun, 22 Nov 2020 00:00:00 GMT</pubDate>
+</item>
 <item>
 <title>The Beginner Developer Wonderland</title>
 <description>Avoiding a dangerous trap for new developers</description>
