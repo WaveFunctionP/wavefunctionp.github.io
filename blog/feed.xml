@@ -3,7 +3,7 @@
 <title>elm-pages Blog</title>
 <description>A personal tech blog</description>
 <link>https://elm-pages.com/blog</link>
-<lastBuildDate>Mon, 23 Nov 2020 01:31:36 +0000</lastBuildDate>
+<lastBuildDate>Mon, 23 Nov 2020 14:54:01 +0000</lastBuildDate>
 <generator>elm-pages</generator>
 <item>
 <title>Avoiding the docker file watching issue on windows</title>
@@ -60,6 +60,13 @@
 <link>https://confusingbits.comblog/shadowcraft-rewrite</link>
 <guid>https://confusingbits.comblog/shadowcraft-rewrite</guid>
 <pubDate>Mon, 22 Jan 2018 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>How to Think Like the SQL Server Engine</title>
+<description>Explains how sql queries are executed by sql server</description>
+<link>https://confusingbits.comblog/sql-server-engine-perf</link>
+<guid>https://confusingbits.comblog/sql-server-engine-perf</guid>
+<pubDate>Mon, 23 Nov 2020 00:00:00 GMT</pubDate>
 </item>
 <item>
 <title>Yesod Dev Container using Docker (on Windows)</title>
