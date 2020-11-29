@@ -3,7 +3,7 @@
 <title>elm-pages Blog</title>
 <description>A personal tech blog</description>
 <link>https://elm-pages.com/blog</link>
-<lastBuildDate>Mon, 23 Nov 2020 14:54:01 +0000</lastBuildDate>
+<lastBuildDate>Sun, 29 Nov 2020 23:22:22 +0000</lastBuildDate>
 <generator>elm-pages</generator>
 <item>
 <title>Avoiding the docker file watching issue on windows</title>
@@ -20,6 +20,13 @@
 <pubDate>Sat, 26 Jan 2019 00:00:00 GMT</pubDate>
 </item>
 <item>
+<title>Weekly Video: Using Haskell to build a performant GraphQL to SQL compiler by Tanmai Gopal</title>
+<description>Dive into the internal design of the Hasura GraphQL engine</description>
+<link>https://confusingbits.comblog/build-hasura</link>
+<guid>https://confusingbits.comblog/build-hasura</guid>
+<pubDate>Mon, 30 Nov 2020 00:00:00 GMT</pubDate>
+</item>
+<item>
 <title>First!</title>
 <description>Hello internet peoples!</description>
 <link>https://confusingbits.comblog/first-post</link>
@@ -32,6 +39,13 @@
 <link>https://confusingbits.comblog/hello-from-elm-pages</link>
 <guid>https://confusingbits.comblog/hello-from-elm-pages</guid>
 <pubDate>Mon, 25 May 2020 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>How I Evaluate and Learn New Tech</title>
+<description>Maybe you'll find this pattern useful as well.</description>
+<link>https://confusingbits.comblog/how-I-evaluate-learn-tech</link>
+<guid>https://confusingbits.comblog/how-I-evaluate-learn-tech</guid>
+<pubDate>Sun, 29 Nov 2020 00:00:00 GMT</pubDate>
 </item>
 <item>
 <title>The Journey To My First Dev Job</title>
@@ -62,7 +76,7 @@
 <pubDate>Mon, 22 Jan 2018 00:00:00 GMT</pubDate>
 </item>
 <item>
-<title>How to Think Like the SQL Server Engine</title>
+<title>Weekly Video: How to Think Like the SQL Server Engine</title>
 <description>Explains how sql queries are executed by sql server</description>
 <link>https://confusingbits.comblog/sql-server-engine-perf</link>
 <guid>https://confusingbits.comblog/sql-server-engine-perf</guid>
