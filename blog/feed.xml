@@ -3,7 +3,7 @@
 <title>elm-pages Blog</title>
 <description>A personal tech blog</description>
 <link>https://elm-pages.com/blog</link>
-<lastBuildDate>Sun, 29 Nov 2020 23:22:22 +0000</lastBuildDate>
+<lastBuildDate>Mon, 30 Nov 2020 00:00:09 +0000</lastBuildDate>
 <generator>elm-pages</generator>
 <item>
 <title>Avoiding the docker file watching issue on windows</title>
