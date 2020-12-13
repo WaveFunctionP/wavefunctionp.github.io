@@ -3,7 +3,7 @@
 <title>elm-pages Blog</title>
 <description>A personal tech blog</description>
 <link>https://elm-pages.com/blog</link>
-<lastBuildDate>Mon, 30 Nov 2020 00:00:09 +0000</lastBuildDate>
+<lastBuildDate>Sun, 13 Dec 2020 20:28:42 +0000</lastBuildDate>
 <generator>elm-pages</generator>
 <item>
 <title>Avoiding the docker file watching issue on windows</title>
@@ -67,6 +67,13 @@
 <link>https://confusingbits.comblog/optimizing-landing-page</link>
 <guid>https://confusingbits.comblog/optimizing-landing-page</guid>
 <pubDate>Fri, 22 Dec 2017 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>Weekly Video: React-Query Tutorial - FORGET ABOUT useEffect</title>
+<description>A great tutorial about react-query</description>
+<link>https://confusingbits.comblog/react-query-tutorial</link>
+<guid>https://confusingbits.comblog/react-query-tutorial</guid>
+<pubDate>Sun, 13 Dec 2020 00:00:00 GMT</pubDate>
 </item>
 <item>
 <title>The Shadowcraft Rewrite</title>
