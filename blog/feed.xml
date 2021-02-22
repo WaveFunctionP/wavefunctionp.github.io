@@ -3,7 +3,7 @@
 <title>elm-pages Blog</title>
 <description>A personal tech blog</description>
 <link>https://elm-pages.com/blog</link>
-<lastBuildDate>Sun, 13 Dec 2020 20:28:42 +0000</lastBuildDate>
+<lastBuildDate>Mon, 22 Feb 2021 22:23:56 +0000</lastBuildDate>
 <generator>elm-pages</generator>
 <item>
 <title>Avoiding the docker file watching issue on windows</title>
@@ -11,6 +11,13 @@
 <link>https://confusingbits.comblog/avoiding-file-watching-bug</link>
 <guid>https://confusingbits.comblog/avoiding-file-watching-bug</guid>
 <pubDate>Sun, 22 Nov 2020 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>Weekly Video: Run containers on bare metal already!</title>
+<description>The history of containers and VMs</description>
+<link>https://confusingbits.comblog/bare-metal-containers</link>
+<guid>https://confusingbits.comblog/bare-metal-containers</guid>
+<pubDate>Mon, 22 Feb 2021 00:00:00 GMT</pubDate>
 </item>
 <item>
 <title>The Beginner Developer Wonderland</title>
